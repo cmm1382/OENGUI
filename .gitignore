@@ -1,0 +1,9 @@
+**/__pycache__
+**/.VENV
+**/GZ
+Python/data/*
+!Python/data/Albany/
+!Python/data/Eglin/
+!Python/data/Prescott/
+!Python/data/Pueblo/
+!Python/data/Savannah/

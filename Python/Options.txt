@@ -1,0 +1,69 @@
+-This program includes analysis from several analysis sites
+-Configuration of default sites is handled below, any sites added will need to follow the following format
+
+Start New Site
+Name                               = Example
+UTC offset                         = -5
+Time Zone Name                     = EST
+OEN data file                      = data\Example.OEN.XXXXXX.CSV
+Wind Vector Probability Field file = data\Example.WSP.XXXXXX.CSV
+Historic Records                   = data\Example.Flagged_Obs.CSV 
+Wind Names                         = Wind1,Wind2,Wind3,Wind4,Wind5,Wind6,Wind7,Wind8,Wind9,Wind10,Wind11,Wind12,Wind13,Wind14,Wind15,Wind16,Wind17
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Global Options
+
+Month Names = Short
+- Can be "Full", "Short", or "Numeric"
+
+Start New Site 
+Name                               = Eglin
+UTC offset                         = -6
+Time Zone Name                     = CST
+OEN data file                      = data/Eglin/Eglin.OEN.Weather.CSV
+Wind Vector Probability Field file = data/Eglin/Eglin.WSP.Interp.csv
+Historic Records                   = data/Eglin/Eglin.Flagged_Obs.csv 
+Wind Names                         = LS, Wind2, Wind3, NE Geostrophic, Wind5, Wind6, Wind7, SL, SE Geostrophic, SW Geostrophic
+End Site 
+
+Start New Site
+Name                               = Albany
+UTC offset                         = -5
+Time Zone Name                     = EST
+OEN data file                      = data/Albany/Albany.OEN.Weather.CSV
+Wind Vector Probability Field file = data/Albany/Albany.WSp.Interp.csv
+Historic Records                   = data/Albany/Albany.Flagged_Obs.csv
+Wind Names                         = Wind1,Wind2,Wind3,Wind4,Wind5,Wind6,Wind7,Wind8,Wind9,Wind10,Wind11,Wind12,Wind13,Wind14,Wind15,Wind16,Wind17
+End Site 
+
+
+Start New Site
+Name                               = Prescott
+UTC offset                         = -7
+Time Zone Name                     = MST
+OEN data file                      = data/Prescott/Prescott.OEN.Weather.CSV
+Wind Vector Probability Field file = data/Prescott/Prescott.WSP.Interp.CSV
+Historic Records                   = data/Prescott/Prescott.Flagged_Obs.CSV 
+Wind Names                         = Wind1,Wind2,Wind3,Wind4,Wind5,Wind6,Wind7,Wind8,Wind9,Wind10,Wind11,Wind12,Wind13,Wind14,Wind15,Wind16,Wind17
+End Site 
+
+Start New Site
+Name                               = Pueblo
+UTC offset                         = -7
+Time Zone Name                     = MST
+OEN data file                      = data/Pueblo/Pueblo.OEN.Weather.CSV
+Wind Vector Probability Field file = data/Pueblo/Pueblo.WSP.Interp.CSV
+Historic Records                   = data/Pueblo/Pueblo.Flagged_Obs.CSV 
+Wind Names                         = Wind1,Wind2,Wind3,Wind4,Wind5,Wind6,Wind7,Wind8,Wind9,Wind10,Wind11,Wind12,Wind13,Wind14,Wind15,Wind16,Wind17
+End Site 
+
+Start New Site
+Name                               = Savannah
+UTC offset                         = -5
+Time Zone Name                     = EST
+OEN data file                      = data/Savannah/Savannah.OEN.Weather.CSV
+Wind Vector Probability Field file = data/Savannah/Savannah.WSP.Interp.CSV
+Historic Records                   = data/Savannah/Savannah.Flagged_Obs.CSV 
+Wind Names                         = Wind1,Wind2,Wind3,Wind4,Wind5,Wind6,Wind7,Wind8,Wind9,Wind10,Wind11,Wind12,Wind13,Wind14,Wind15,Wind16,Wind17
+End Site 
